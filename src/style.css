@@ -1,0 +1,7 @@
+#root ul li img{
+    width: 300px;
+    height: 416px;
+}
+#root ul li{
+    list-style: none;
+}

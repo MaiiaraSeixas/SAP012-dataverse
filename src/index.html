@@ -6,6 +6,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <h1>Dorameiras de plantão!</h1>
+    </header>
     <script src="main.js" type="module"></script>
+    <main>
+      <h2>Meus doramas favoritos!</h2>
+     <section class="container-section">
+    <!-- sessao de filtros -->
+      <label for="filtros">filtros</label>
+      <select name="filtros" data-testid="selecionar-filtro">
+        <option value="Drama">Drama</option>
+        <option value="Romance">Romance</option>
+        <option value="Ação">Ação</option>
+      </select>
+    <!-- sessao de ordenacao -->
+      <label for="ordenacao">Ordenação</label>
+      <select name="ordenacao" data-testid="selecionar-ordenacao">
+        <option value="desc">a-z</option>
+        <option value="asc">z-a</option>
+      </select>
+    <!-- botao limpar -->
+    <button data-testid="btnLimpar">Limpar filtros</button>
+     </section>
+     <section id="root">
+      <ul></ul>
+    </section>
+    </main>
+    <footer>Desenvolvido por: Bárbara Mascena e Maiara Seixas.</footer>
   </body>
 </html>
