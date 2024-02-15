@@ -33,6 +33,14 @@ footer{
     font-family: 'Satisfy', cursive;
 }
 
+#root{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 75px ;
+margin-bottom: 70px;
+}
+
 .container-section {
     display: flex;
     justify-content: space-around;
