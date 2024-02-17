@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dataverse</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -13,18 +14,18 @@
   </header>
   <script src="main.js" type="module"></script>
   <main>
-    <h2 class="sub-titulo">Meus doramas favoritos!</h2>
-    <section class="container-section">
+    <h2>Meus doramas favoritos!</h2>
+    <section class="container_section">
       <!-- sessao de filtros -->
-      <label for="filtros">Gênero</label>
-      <select name="filtros" data-testid="select-filter">
+      <label for="filter">Gênero</label>
+      <select id="filter" name="filter" data-testid="select-filter">
         <option value="Drama">Drama</option>
         <option value="Romance">Romance</option>
         <option value="Ação">Ação</option>
       </select>
       <!-- sessao de ordenacao -->
-      <label for="ordenacao">Ordenação</label>
-      <select name="sort-order" data-testid="select-sort">
+      <label for="order">Ordenação</label>
+      <select id="order" name="sort-order" data-testid="select-sort">
         <option value="desc">a-z</option>
         <option value="asc">z-a</option>
       </select>
