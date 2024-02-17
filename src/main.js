@@ -3,19 +3,20 @@ import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 const listaCard = document.querySelector('#root');
-const filtros = document.getElementById('filtros');
-const ordenacao = document.getElementById('ordenacao');
-const botao = document.querySelector('[data-testid="button-clear"]')
+const filter = document.getElementById('filter');
+const order = document.getElementById('order');
+const button = document.querySelector('[data-testid="button-clear"]')
 
 document.addEventListener("DOMContentLoaded", () => {
   listaCard.appendChild(renderItems(data));
-  filtros.addEventListener('change', () =>{
+
+  filter.addEventListener('change', () =>{
     console.log ('vai filtrar');
   });
-  ordenacao.addEventListener('change', () =>{
+  order.addEventListener('change', () =>{
     console.log (' vai ordenar');
   });
-  botao.addEventListener('click', () =>{
+  button.addEventListener('click', () =>{
     console.log (' vai limpar');
   });
 })
