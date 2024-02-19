@@ -3,12 +3,13 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 header {
-    background-color: #c67fa5;
     width: 100%;
     height: 100%;
+    background: linear-gradient(68.15deg,#fdd9e5,#fec2d6 16.62%,#f47cda 85.61%);
 }
 
 h1 {
@@ -30,7 +31,7 @@ h2{
     display: flex;
     justify-content: space-around;
     font-family: 'Satisfy', cursive;
-    background-color: #FFCDE8;
+    background-color: #d1d8f5;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -42,6 +43,20 @@ h2{
 
 #order{
     font-family: 'Single Day', cursive;
+}
+
+#button-clear{
+    background-color: #f0eaef;
+    color: #913a50;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 0 10px #ffe0ff;
+    margin: 10px;
+
 }
 
 #root{
@@ -57,13 +72,6 @@ ul{
     padding: 10px;
 }
 
-.img_card{
-    width: 250px;
-    height: 350px;
-    border-radius: 50%;
-    margin:15px;
-}
-
 .container_li{
     list-style: none;
     font-family: 'Satisfy', cursive;
@@ -71,23 +79,44 @@ ul{
     border-radius: 300px 300px 10px 10px;
     margin: 5px;
     width: 23%;
+    text-align: center;
+}
+
+.img_card{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
 }
 
 dl{
     word-break:break-word;
-    margin:5px;
+    margin: 10px 0;
     padding: 5px;
 }
 
 dt{
-   width: 50%;
+    font-weight: bold;
 }
 
 footer{
-    color: #ffffff;
-    text-align: end;
-    padding: 20px;
     background-color: #A45D83;
-    font-family: 'Single Day', cursive;
-    margin-top: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 1%;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .container_li {
+        width: 300px;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
 }
