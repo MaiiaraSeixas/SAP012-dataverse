@@ -1,7 +1,179 @@
-#root ul li img{
-    width: 300px;
-    height: 416px;
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Single+Day&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
-#root ul li{
+
+header {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(68.15deg,#fdd9e5,#fec2d6 16.62%,#f47cda 85.61%);
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Single Day', cursive;
+}
+
+h2{
+    text-align: center;
+    color: #BB3E81;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Satisfy', cursive;
+}
+
+.container_section {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Satisfy', cursive;
+    background-color: #d1d8f5;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#filter{
+    font-family: 'Single Day', cursive;
+}
+
+#order{
+    font-family: 'Single Day', cursive;
+}
+
+#button-clear{
+    background-color: #f0eaef;
+    color: #913a50;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 0 10px #ffe0ff;
+    margin: 10px;
+
+}
+
+#root{
+    margin-top: 10px ;
+    margin-bottom: 5px;
+}
+
+ul{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container_li{
     list-style: none;
+    font-family: 'Satisfy', cursive;
+    background-color: #FFCDE8;
+    border-radius: 300px 300px 10px 10px;
+    margin: 5px;
+    width: 23%;
+    text-align: center;
+}
+
+.img_card{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+dl{
+    word-break:break-word;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+dt{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #A45D83;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 1%;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .container_li {
+        width: 300px;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*Alteraçãoes Maiara*/
+/* Aplicando flexbox aos elementos <li> */
+.container_li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Satisfy', cursive;
+    background-color: #FFCDE8;
+    border-radius: 300px 300px 10px 10px;
+    margin: 5px;
+    width: 23%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra */
+    transition: transform 0.3s ease; /* Adicionando uma transição suave */
+}
+
+/* Estilizando os elementos <li> quando hover */
+.container_li:hover {
+    transform: translateY(-5px); /* Adicionando um efeito de elevação ao passar o mouse */
+}
+
+/* Aplicando flexbox aos elementos <select> */
+select {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Single Day', cursive;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f0eaef;
+    color: #913a50;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ffe0ff;
+}
+
+/* Estilizando opções do select */
+select option {
+    font-family: 'Single Day', cursive;
+    padding: 10px;
+    background-color: #f0eaef;
+    color: #913a50;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilizando quando o select estiver focado */
+select:focus {
+    outline: none;
+    box-shadow: 0 0 10px #BB3E81;
 }

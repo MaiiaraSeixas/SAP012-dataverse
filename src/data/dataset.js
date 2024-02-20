@@ -1,7 +1,7 @@
 export default [
   {
     "id": "pousando-no-amor",
-    "name": "pousando no amor",
+    "name": "Pousando no amor",
     "shortDescription": "Garota faz pouso na Coréia do Norte, oficial do exécito a protege e se apaixona por ela.",
     "description": "O K-drama narra a história de uma empresária sul-coreana e um capitão do exército norte-coreano, cujo romance floresce depois que a jovem faz um pouso de emergência em território estrangeiro. Enquadrando-se nos moldes das clássicas comédias românticas, com tons de amizade e das emocionantes histórias de amor proibido, o oficial se vê obrigado a manter em segredo e proteger seu amor, enquanto ambos enfrentam não apenas seus próprios conflitos internos, mas também as tensões externas que ameaçam separá-los. Com ajuda de amigos lutam para se manterem juntos!.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzRiZWUyN2YtNDI4YS00NTg2LTg0OTgtMGI2ZjU4ODQ4Yjk3XkEyXkFqcGdeQXVyNTI5NjIyMw@@.jpg",
@@ -13,7 +13,7 @@ export default [
   },
   {
     "id": "tudo-bem-nao-ser-normal",
-    "name": "tudo bem não ser normal",
+    "name": "Tudo bem não ser normal",
     "shortDescription": "O caminho para a cura emocional para uma escritora de livros infantis e um cuidador quando seus caminhos se cruzam.",
     "description": "No drama Tudo Bem Não Ser Normal, a escritora de livros infantis e o psiquiatra Lee Shi-joon têm seus destinos entrelaçados, oferecendo um caminho para a cura emocional. Enquanto Lee Shi-joon enfrenta desafios ao tratar pacientes no hospital psiquiátrico Hyunsung, ambos questionam as noções convencionais de normalidade. Essa conexão inesperada entre dois mundos distintos proporciona uma jornada de autodescoberta e compreensão, onde a cura emocional se torna uma possibilidade real através do entendimento mútuo uma historia de amor escrita com mistérios.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTk0Nzk5ZWYtYTNlZi00YjBjLWJhYjctMWMwMmYyMDA5ZjJmXkEyXkFqcGdeQXVyNDY5MjMyNTg@.jpg",
@@ -27,7 +27,7 @@ export default [
     "id": "Apostando-alto",
     "name": "Apostando alto",
     "shortDescription": "Jovens empresários competem por sucesso e amor na indústria de alta tecnologia da Coreia.",
-    "description": "o k-drama narra a história de Seo Dal-mi, uma jovem aspirante a CEO de uma grande empresa, cuja trajetória foi moldada fortemente pela separação dos pais na infância quando, em meio a divisão familiar, sua irmã, Won In-jae, escolheu ir com sua mãe e ela ficou com o pai que assim como ela, tinha uma quantidade enorme de sonhos de montar sua própria empresa, mas as adversidades que o cercam o privam de realizar esse sonho e fazem com que a vida de Dal-Mi seja bem menos fácil do que a de sua irmã.",
+    "description": "O k-drama narra a história de Seo Dal-mi, uma jovem aspirante a CEO de uma grande empresa, cuja trajetória foi moldada fortemente pela separação dos pais na infância quando, em meio a divisão familiar, sua irmã, Won In-jae, escolheu ir com sua mãe e ela ficou com o pai que assim como ela, tinha uma quantidade enorme de sonhos de montar sua própria empresa, mas as adversidades que o cercam o privam de realizar esse sonho e fazem com que a vida de Dal-Mi seja bem menos fácil do que a de sua irmã.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGEzMjMxNmItYWM2MC00MGU3LTk2YmQtYjUyOTVjYTRlZDQ3XkEyXkFqcGdeQXVyNDU4MDQ0MjM@.jpg",
     "facts": {
       "doramaRating": 8.0,
@@ -68,7 +68,7 @@ export default [
     "facts": {
       "doramaRating": 7.6,
       "doramaGender": "Drama",
-      "doramaAno": 2019-2020
+      "doramaAno": 2019 - 2020
     }
   },
   {
@@ -189,12 +189,12 @@ export default [
     "facts": {
       "doramaRating": 7.9,
       "doramaGender": "Ação",
-      "doramaAno": 2021   
+      "doramaAno": 2021
     }
   },
   {
     "id": "trinta-nove",
-    "name": "trinta nove",
+    "name": "Trinta nove",
     "shortDescription": "Três pessoas prestes a completar os 40 anos equilibrarão a vida, o trabalho e os relacionamentos.",
     "description": "O dorama acompanha um trio de melhores amigas que vivem juntas a experiência transformadora de chegar aos 40 anos. Em Trinta e Nove, Cha Mi-jo (Son Ye-jin) é uma dermatologista que nunca passou necessidades e foi criada por uma família bem estruturada em um lar acolhedor. Já Jeong Chan-young (Jeon Mi-do), que sempre sonhou em se tornar uma grande atriz, acabou se prendendo à profissão de professora de teatro. Por fim, conhecemos Jang Joo-hee (Kim Ji-hyun) uma gerente de loja de cosméticos que, por ser muito tímida, é pouco experiente quando se trata de relacionamentos.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmNmNDYwOTEtODVmZC00ZGJhLWE1NGMtNDJhNzBmMzk4YjM1XkEyXkFqcGdeQXVyMTA2NTg2Njg2.jpg",
@@ -206,7 +206,7 @@ export default [
   },
   {
     "id": "a-licao",
-    "name": "a lição",
+    "name": "A lição",
     "shortDescription": "Uma mulher vive em busca de uma vingança absoluta contra os valentões de sua infância que destruíram sua vida.",
     "description": "Moon Dong-eun (Song Hye-kyo), professora que enfrentou abusos na infância, planeja vingança elaborada contra seus agressores de alta classe, incluindo Park Yeon-jin (Lim Ji-yeon). Determinada a puni-los, envolve a cirurgiã Ju Yeo-jeong (Lee Do-hyun), a empregada Kang Hyeon-nam (Yeom Hye-ran) e o agressor Jeon Jae-joon (Park Sung-hoon). Com reviravoltas emocionantes, a trama destaca temas de justiça e retaliação, com Song Hye-kyo e um elenco diversificado, incluindo Jung Ji-so, explorando as questões profundas enquanto Moon Dong-eun busca reparação por seu passado traumático.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjdlNWFkYjEtZTFlNC00MTM1LWExNjktMzM3NDU5NDJmNjk2XkEyXkFqcGdeQXVyNDYzNDg2MTM@.jpg",
@@ -218,7 +218,7 @@ export default [
   },
   {
     "id": "snowdrop",
-    "name": "snowdrop",
+    "name": "Snowdrop",
     "shortDescription": "Snowdrop ocorre em 1987, destacando o Movimento Democrático. Soo-ho, estudante misterioso, e Yeong-ro desenvolvem romance em meio à agitação política.",
     "description": "Snowdrop se passa em 1987, durante o Movimento Democrático na Coreia do Sul. Lim Soo-ho (Jung Hae-in), um estudante de pós-graduação, é descoberto ensanguentado por Eun Yeong-ro (Jisoo), estudante universitária, que o protege do governo em seu dormitório. A trama, ambientada no cenário do Movimento Democrático, revela que Soo-ho esconde segredos. Em meio à agitação política, a história da dupla se desenrola, culminando em um romance tenso e intrigante. O drama abrange novembro e dezembro de 1987, destacando eventos cruciais que levaram à transição da Quinta para a Sexta República da Coreia.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BMGZlNTU4MGItMzk1Yy00MmVkLThiMDItNTMxNjMyYmI0ZDc0XkEyXkFqcGdeQXVyMTI1Mzg0ODA5.jpg",
@@ -226,11 +226,11 @@ export default [
       "doramaRating": 8.1,
       "doramaGender": "Drama",
       "doramaAno": 2021
-     }
+    }
   },
   {
     "id": "round-6",
-    "name": "round 6",
+    "name": "Round 6",
     "shortDescription": "Jogadores aceitam convite mortal com prêmio milionário.",
     "description": "Jogadores aceitam convite mortal com prêmio milionário.",
     "description": "Série sul-coreana original da Netflix, acompanha um grupo de pessoas desesperadas por dinheiro que recebem um misterioso convite para participar de jogos competitivos inspirados em brincadeiras infantis. Sem saber qualquer coisa sobre o convite, centenas de pessoas comparecem ao local para participar do evento. Ao final do jogo, o vencedor poderá levar para casa um prêmio milionário e resolver todas as suas dívidas. Porém, o que eles não sabem é que os perdedores não saírão vivos desse jogo. Agora os competidores precisarão lutar para sobreviver a essa macabra disputa.",
@@ -243,7 +243,7 @@ export default [
   },
   {
     "id": "extracurricular",
-    "name": "extracurricular",
+    "name": "Extracurricular",
     "shortDescription": "Modelo colegial tem vida dupla com segredo revelado",
     "description": "Oh Ji Soo (Kim Dong Hee) parece um simples e típico aluno de ensino médio. Ele é tímido, nada sociável e sempre tira as notas mais altas. No entanto, ele guarda um segredo que jamais deveria ser revelado. Oji administra um negócio perigoso de namoro compensado. Em um aplicativo chamado Doggo, Oh Ji Soo tem uma lista de clientes e mulheres disponíveis para programas em um grupo de conversa. Em troca de uma parte do dinheiro que elas recebem, Oji e seu sócio oferecem segurança para as mesmas",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzg0NjMyOTYtNjAyNi00MmFkLWExMjQtOGRhMDA0MmNlNjdhXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg",
@@ -255,7 +255,7 @@ export default [
   },
   {
     "id": "somebody",
-    "name": "somebody",
+    "name": "Somebody",
     "shortDescription": "Assassinato ligado ao app Somebody.",
     "description": "A trama gira em torno de Sum, uma desenvolvedora de um aplicativo de encontros chamado Somebody. Seu mundo vira de cabeça para baixo quando descobre que o app está vinculado a uma série de assassinatos. Os crimes têm início quando o arquiteto Yoon-o usa o aplicativo para conhecer Rose, levando-a a um encontro fatal. Ao perceber a conexão sinistra, Sum une forças com uma amiga detetive para desvendar os crimes. Contudo, ela se vê enredada nos mistérios e se aproxima mais do arquiteto do que planejava, desencadeando uma trama envolvente de suspense e romance.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzM3YjUwMmQtZjRiNS00OTZkLTk0ZjktOWY2NmU0YjYyYWIyXkEyXkFqcGdeQXVyODAzMTg2NzU@.jpg",
@@ -267,7 +267,7 @@ export default [
   },
   {
     "id": "hometown-cha-cha-cha",
-    "name": "hometown cha cha cha",
+    "name": "Hometown cha cha cha",
     "shortDescription": "Dentista na vila, oposta a faz-tudo charmoso.",
     "description": "Dentista na vila, oposta a faz-tudo charmoso.",
     "description": "Yoon Hye Jin, dotada de beleza e inteligência, vê seu plano de vida desabar devido à retidão em seu coração. Diante de obstáculos, muda-se para a vila costeira de Gongjin, onde encontra Hong Doo Shik. Embora oficialmente desempregado, Doo Shik é um mestre dos biscates, prontamente auxiliando todos em Gongjin. O encontro entre eles promete desvendar desafios e criar laços na vila. Handy Man, Mr. Hong é um remake do filme de 2004, prometendo uma trama envolvente repleta de humor e calor humano.",
@@ -280,7 +280,7 @@ export default [
   },
   {
     "id": "as-tres-irmas",
-    "name": "as três irmãs",
+    "name": "As três irmãs",
     "shortDescription": "Três irmãs enfrentam família rica após incidente.",
     "description": "A história se concentra em três irmãs muito próximas umas das outras, que cresceram com poucas condições financeiras, mas que após se envolverem num acidente, vão precisar bater de frente simplesmente com uma das famílias mais poderosas da nação. Aqui acompanhamos Kim Go Eun no papel de Oh In Joo, a irmã mais velha que faz de tudo para proteger a sua família. Após crescer em uma zona de pobreza extrema, seu único sonho é poder viver como pessoas normais, mas um acidente no caminho irá mudar completamente os rumos da sua vida.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzRlZjkwOWEtMjBhMy00NmM3LWFkMzgtYTFmODIyMWFhNDkyXkEyXkFqcGdeQXVyMTUzOTcyODA5.jpg",
