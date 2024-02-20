@@ -45,18 +45,16 @@ h2{
     font-family: 'Single Day', cursive;
 }
 
-#button-clear{
+#button_clear{
     background-color: #f0eaef;
     color: #913a50;
     font-size: 16px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
     width: 100px;
     height: 40px;
     box-shadow: 0 0 10px #ffe0ff;
-    margin: 10px;
-
 }
 
 #root{
@@ -100,10 +98,10 @@ dt{
 }
 
 footer{
-    background-color: #A45D83;
+    background: linear-gradient(68.15deg,#fa69c7,#f766e6 16.62%,#fe13cb 85.61%);
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     position: fixed;
     bottom: 0;
     left: 0;
