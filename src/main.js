@@ -1,22 +1,21 @@
 //import { example } from './dataFunctions.js';
 import { renderItems } from './view.js';
-
 import data from './data/dataset.js';
 const listaCard = document.querySelector('#root');
-const filter = document.getElementById('filter');
-const order = document.getElementById('order');
+const filter = document.querySelector('#filter');
+const order = document.querySelector('#order');
 const button = document.querySelector('[data-testid="button-clear"]')
 
 document.addEventListener("DOMContentLoaded", () => {
   listaCard.appendChild(renderItems(data));
 
-  filter.addEventListener('change', () =>{
+  filter.addEventListener('change', (event) =>{
     console.log ('vai filtrar');
   });
-  order.addEventListener('change', () =>{
+  order.addEventListener('change', (event) =>{
     console.log (' vai ordenar');
   });
-  button.addEventListener('click', () =>{
+  button.addEventListener('click', (event) =>{
     console.log (' vai limpar');
   });
 })

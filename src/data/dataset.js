@@ -269,6 +269,7 @@ export default [
     "id": "hometown-cha-cha-cha",
     "name": "Hometown cha cha cha",
     "shortDescription": "Dentista na vila, oposta a faz-tudo charmoso.",
+    "description": "Dentista na vila, oposta a faz-tudo charmoso.",
     "description": "Yoon Hye Jin, dotada de beleza e inteligência, vê seu plano de vida desabar devido à retidão em seu coração. Diante de obstáculos, muda-se para a vila costeira de Gongjin, onde encontra Hong Doo Shik. Embora oficialmente desempregado, Doo Shik é um mestre dos biscates, prontamente auxiliando todos em Gongjin. O encontro entre eles promete desvendar desafios e criar laços na vila. Handy Man, Mr. Hong é um remake do filme de 2004, prometendo uma trama envolvente repleta de humor e calor humano.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2U3N2E5N2QtZDM1OC00N2QxLThjOTgtZmQ0OWRiYTUwZTAyXkEyXkFqcGdeQXVyNDY5MjMyNTg@.jpg",
     "facts": {
