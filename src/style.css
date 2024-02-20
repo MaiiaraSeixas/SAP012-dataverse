@@ -120,3 +120,60 @@ footer{
         align-items: center;
     }
 }
+/*Alteraçãoes Maiara*/
+/* Aplicando flexbox aos elementos <li> */
+.container_li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Satisfy', cursive;
+    background-color: #FFCDE8;
+    border-radius: 300px 300px 10px 10px;
+    margin: 5px;
+    width: 23%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra */
+    transition: transform 0.3s ease; /* Adicionando uma transição suave */
+}
+
+/* Estilizando os elementos <li> quando hover */
+.container_li:hover {
+    transform: translateY(-5px); /* Adicionando um efeito de elevação ao passar o mouse */
+}
+
+/* Aplicando flexbox aos elementos <select> */
+select {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Single Day', cursive;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f0eaef;
+    color: #913a50;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ffe0ff;
+}
+
+/* Estilizando opções do select */
+select option {
+    font-family: 'Single Day', cursive;
+    padding: 10px;
+    background-color: #f0eaef;
+    color: #913a50;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilizando quando o select estiver focado */
+select:focus {
+    outline: none;
+    box-shadow: 0 0 10px #BB3E81;
+}
