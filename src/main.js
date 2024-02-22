@@ -1,5 +1,6 @@
 //import { example } from './dataFunctions.js';
 import { renderItems } from './view.js';
+import { orderdata } from './dataFunctions.js';
 import data from './data/dataset.js';
 const listaCard = document.querySelector('#root');
 const filter = document.querySelector('#filter');
@@ -13,7 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log ('vai filtrar');
   });
   order.addEventListener('change', (event) =>{
-    console.log (' vai ordenar');
+    console.log (' vai ordenar', event.target.value);
+    const newData = orderdata(data, event.target.value);
+    listaCard.innerHTML = "";
+    listaCard.appendChild(renderItems(newData));
   });
   button.addEventListener('click', (event) =>{
     console.log (' vai limpar');
