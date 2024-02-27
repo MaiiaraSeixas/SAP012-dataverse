@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   listaCard.appendChild(renderItems(dadosExibidos));
 
   filter.addEventListener('change', (event) => {
-    dadosExibidos = filterdata(dadosExibidos, event.target.value);
+    dadosExibidos = filterdata(data, event.target.value);
     listaCard.innerHTML = ""
     listaCard.appendChild(renderItems(dadosExibidos))
   });

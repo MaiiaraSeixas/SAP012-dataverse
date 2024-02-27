@@ -1,6 +1,5 @@
 export const filterdata = (doramas, valueoption) => {
-    console.log(doramas)
-    console.log(valueoption)
+    
     const result = doramas.filter((dorama) => dorama.facts.doramaGender === valueoption)
     return result
 };
