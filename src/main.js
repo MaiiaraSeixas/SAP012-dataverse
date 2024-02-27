@@ -1,24 +1,28 @@
-//import { example } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
-import { filterdata } from './dataFunctions.js';
+import { filterdata, orderdata } from './dataFunctions.js'; 
 const listaCard = document.querySelector('#root');
 const filter = document.querySelector('#filter');
 const order = document.querySelector('#order');
 const button = document.querySelector('[data-testid="button_clear"]')
+let dadosExibidos = data.slice();
 
 document.addEventListener("DOMContentLoaded", () => {
-  listaCard.appendChild(renderItems(data));
+  listaCard.appendChild(renderItems(dadosExibidos));
 
-  filter.addEventListener('change', (event) =>{
-    const resultfilter = filterdata(data,event.target.value);
+  filter.addEventListener('change', (event) => {
+    dadosExibidos = filterdata(dadosExibidos, event.target.value);
     listaCard.innerHTML = ""
-    listaCard.appendChild(renderItems(resultfilter))
+    listaCard.appendChild(renderItems(dadosExibidos))
   });
-  order.addEventListener('change', (event) =>{
-    console.log ('vai ordenar');
+  order.addEventListener('change', (event) => {
+    dadosExibidos = orderdata(dadosExibidos, event.target.value);
+    listaCard.innerHTML = "";
+    listaCard.appendChild(renderItems(dadosExibidos));
   });
-  button.addEventListener('click', (event) =>{
-    console.log ('vai limpar');
+  button.addEventListener('click', (event) => {
+    listaCard.innerHTML = "";
+    dadosExibidos = data.slice();
+    listaCard.appendChild(renderItems(data));
   });
-})
+});
