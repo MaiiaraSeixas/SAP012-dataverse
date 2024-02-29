@@ -1,6 +1,4 @@
 export const filterdata = (doramas, valueoption) => {
-    console.log(doramas)
-    console.log(valueoption)
     const result = doramas.filter((dorama) => dorama.facts.doramaGender === valueoption)
     return result
 };
@@ -11,12 +9,9 @@ export const orderdata = (data, ordenacao) => {
         return data.sort((a, b) => { return b.name.localeCompare(a.name) })
     }
 };
-
-//function soma (a,b){
- //   const resultado = a+b
- //   return resultado
-//}
-//const soma = (a,b)=>{
-   // return a + b
-//}
-
+export const computStats = (data) => {
+    const estatistica = data.map(dorama => dorama.facts.doramaRating).filter(value => !isNaN(value));
+    const contador = estatistica.reduce((accumulator) => accumulator + 1,0);
+    return contador; 
+};
+ 
