@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     totalcards(dadosExibidos);
     
   });
-  button.addEventListener('click', (event) => {
+  button.addEventListener('click', () => {
     listaCard.innerHTML = "";
     dadosExibidos = data.slice();
     listaCard.appendChild(renderItems(data));
