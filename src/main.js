@@ -1,36 +1,48 @@
-//import { example } from './dataFunctions.js';
 import { renderItems } from './view.js';
-import { orderdata } from './dataFunctions.js';
 import data from './data/dataset.js';
+import { filterdata, orderdata, computStats} from './dataFunctions.js'; 
+
 const listaCard = document.querySelector('#root');
 const filter = document.querySelector('#filter');
 const order = document.querySelector('#order');
-const button = document.querySelector('[data-testid="button-clear"]')
+const button = document.querySelector('[data-testid="button_clear"]')
+const calculo_estatistica = document.querySelector('.calculo_estatistica');
+
+let dadosExibidos = data.slice();
+
+const totalcards = (data) => {
+  const numbercards = computStats(data);
+  calculo_estatistica.innerHTML=`${numbercards} cards`;
+};
 
 document.addEventListener("DOMContentLoaded", () => {
-  listaCard.appendChild(renderItems(data));
+  listaCard.appendChild(renderItems(dadosExibidos));
+  totalcards(data);
 
-  filter.addEventListener('change', (event) =>{
-    console.log ('vai filtrar');
+  filter.addEventListener('change', (event) => {
+    dadosExibidos = filterdata(data, event.target.value);
+    listaCard.innerHTML = ""
+    listaCard.appendChild(renderItems(dadosExibidos))
+    totalcards(dadosExibidos);
   });
-  order.addEventListener('change', (event) =>{
-    console.log (' vai ordenar', event.target.value);
-    const newData = orderdata(data, event.target.value);
+  // order.addEventListener('change', (event) =>{
+  //   console.log (' vai ordenar', event.target.value);
+  //   const newData = orderdata(data, event.target.value);
+  //   listaCard.innerHTML = "";
+  //   listaCard.appendChild(renderItems(newData));
+
+  order.addEventListener('change', (event) => {
+    dadosExibidos = orderdata(dadosExibidos, event.target.value);
     listaCard.innerHTML = "";
-    listaCard.appendChild(renderItems(newData));
+    listaCard.appendChild(renderItems(dadosExibidos));
+    totalcards(dadosExibidos);
+    
   });
-  button.addEventListener('click', (event) =>{
-    console.log (' vai limpar');
+  button.addEventListener('click', () => {
+    listaCard.innerHTML = "";
+    dadosExibidos = data.slice();
+    listaCard.appendChild(renderItems(data));
+    totalcards(dadosExibidos);
   });
-})
+});
 
-//document.querySelector("#root").innerHTML = renderItems(data)
-
-//console.log(example, renderItems(data), data);
-//const root = document.querySelector('#root ul') // puxando a tag ul atraves do elemento id
-
-//for(let serie of data){
-//   root.innerHTML = root.innerHTML + renderItems(serie)
-//}
-
-//root.innerHTML = root.innerHTML + renderItems(data[0])
