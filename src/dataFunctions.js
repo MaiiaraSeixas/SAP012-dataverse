@@ -12,6 +12,6 @@ export const orderdata = (data, ordenacao) => {
 };
 export const computStats = (data) => {
   const estatistica = data.map(dorama => dorama.facts.doramaRating).filter(value => !isNaN(value));
-  const contador = estatistica.reduce((accumulator) => accumulator + 1, 0);
+  const contador = estatistica.reduce((acc) => acc + 1, 0);
   return contador;
 };
