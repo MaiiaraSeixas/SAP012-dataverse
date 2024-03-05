@@ -18,20 +18,22 @@
     <section class="container_section">
       <!-- sessao de filtros -->
       <label for="filter">Gênero</label>
-      <select id="filter" name="filter" data-testid="select_filter">
+      <select id="filter" name="filter" data-testid="select-filter">
         <option value="Drama">Drama</option>
         <option value="Romance">Romance</option>
         <option value="Ação">Ação</option>
+        <option value="Comédia">Comédia</option>
       </select>
       <!-- sessao de ordenacao -->
       <label for="order">Ordenação</label>
-      <select id="order" name="sort_order" data-testid="select_sort">
-        <option value="desc">a-z</option>
-        <option value="asc">z-a</option>
+      <select id="order" name="sort-order" data-testid="select-sort">
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
       </select>
       <!-- botao limpar -->
-      <button data-testid="button_clear">Limpar filtros</button>
+      <button id="btn-clear" data-testid="button-clear">Limpar</button>
     </section>
+    <span class="calculo_estatistica"></span>
     <section id="root">
     </section>
   </main>
