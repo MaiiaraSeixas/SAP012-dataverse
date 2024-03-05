@@ -5,7 +5,7 @@ import { filterdata, orderdata, computStats} from './dataFunctions.js';
 const listaCard = document.querySelector('#root');
 const filter = document.querySelector('#filter');
 const order = document.querySelector('#order');
-const button = document.querySelector('[data-testid="button_clear"]')
+const button = document.querySelector('#btn-clear')
 const calculo_estatistica = document.querySelector('.calculo_estatistica');
 
 let dadosExibidos = data.slice();

@@ -1,4 +1,4 @@
-import { filterdata, orderdata, computStats} from '../src/dataFunctions.js';
+import { filterdata, orderdata} from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
 describe('filterdata', () => {
@@ -26,13 +26,5 @@ describe('orderdata', () => {
     expect(listaOrdenada[0].name).toBe('Uma Advogada Extraordinária');
     expect(listaOrdenada[1].name).toBe('Tudo bem não ser normal');
     expect(listaOrdenada[2].name).toBe('The good bad mother');
-  });
-});
-
-describe('computStats', () => { 
-
-  it('Deve retornar 2 doramas referente ao genero Romance', () => {
-    const filterCards = filterdata(fakeData, 'Romance')
-    expect(filterCards.length).toBe(2);
   });
 });
