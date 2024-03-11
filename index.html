@@ -2,56 +2,41 @@
 <html>
 
 <head>
-   <!-- Metadados -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dataverse</title>
-  <!-- Estilos -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- Cabeçalho -->
   <header>
     <h1>Dorameiras de plantão!</h1>
   </header>
-   <!-- Script JavaScript -->
   <script src="main.js" type="module"></script>
-
-  <!-- Conteúdo principal -->
   <main>
     <h2>Meus doramas favoritos!</h2>
     <section class="container_section">
-      <!-- Sessão de filtros -->
+      <!-- sessao de filtros -->
       <label for="filter">Gênero</label>
       <select id="filter" name="filter" data-testid="select-filter">
-        <option value="Drama">Drama</option> <!-- Opção para filtrar por Drama -->
-        <option value="Romance">Romance</option> <!-- Opção para filtrar por Romance -->
-        <option value="Ação">Ação</option> <!-- Opção para filtrar por Ação -->
-        <option value="Comédia">Comédia</option> <!-- Opção para filtrar por Comédia -->
+        <option value="Drama">Drama</option>
+        <option value="Romance">Romance</option>
+        <option value="Ação">Ação</option>
+        <option value="Comédia">Comédia</option>
       </select>
-
-      <!-- Sessão de ordenação -->
+      <!-- sessao de ordenacao -->
       <label for="order">Ordenação</label>
       <select id="order" name="sort-order" data-testid="select-sort">
-        <option value="asc">A-Z</option> <!-- Opção para ordenar em ordem alfabética crescente -->
-        <option value="desc">Z-A</option> <!-- Opção para ordenar em ordem alfabética decrescente -->
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
       </select>
-
       <!-- botao limpar -->
       <button id="btn-clear" data-testid="button-clear">Limpar</button>
     </section>
-
-     <!-- Estatísticas (ainda não implementado) -->
-    <span class="calculo_estatistica"></span> <!-- Espaço reservado para exibir estatísticas -->
-    
-    <!-- Seção de exibição dos "doramas" -->
+    <span class="calculo_estatistica"></span>
     <section id="root">
-      <!-- Aqui você pode adicionar mais elementos conforme necessário -->
     </section>
   </main>
-
-  <!-- Rodapé -->
   <footer>Desenvolvido por: Bárbara Mascena e Maiara Seixas.</footer>
 </body>
 
